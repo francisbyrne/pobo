@@ -1,0 +1,44 @@
+body {
+	background-color: lightblue;
+}
+
+div {
+	font-weight: bold;
+}
+
+#pobo-board {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	z-index: 100000;
+	width: 100%;
+}
+
+.grumpy {
+	display: block;
+	width: 400px;
+	margin: 20px auto;
+	border: 4px solid pink;
+}
+
+.main {
+	border: 2px solid pink;
+	background-color: darkblue;
+	color: pink;
+	width: 600px;
+	margin: 20px auto;
+	padding: 10px 0 35px 0;
+}
+
+#greet:after {
+	content: "Francis";
+}
+
+.main:first-letter {
+	font-size: 3em;
+	border: 1px pink solid;
+	padding: 3px;
+	margin: 4px;
+	background-color: red;
+	float: left;
+}
