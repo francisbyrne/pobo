@@ -2,13 +2,10 @@ view.viewSize = new Size( document.width, document.height );
 
 pobo = {};
 
-pobo.left = false;
-pobo.right = false;
-pobo.forward = false;
-
 /* The ship object, which extends CompoundPath with two triangles
 		one representing the hull and one the front of the ship. */
 var ship = function () {
+
 	var center = new Point( 100, 100 );
 	var hullFillColor = 'white';
 	var hullLineColor = 'black';
